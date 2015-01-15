@@ -10,8 +10,8 @@ A Wercker step that purges the Cloudflare cache for a given domain.
 build:
   steps:
     - seigyo/cloudflare-purge:
-        cloudflare_api: <<your Cloudflare API key>>
-        cloudflare_email: <<your Cloudflare email>>
+        api: <<your Cloudflare API key>>
+        email: <<your Cloudflare email>>
         domain: <<your domain name>>
 ```
 

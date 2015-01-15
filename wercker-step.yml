@@ -1,14 +1,14 @@
 name: cloudflare-purge
-version: 0.0.2
+version: 0.0.3
 description: A Wercker step that purges the Cloudflare cache for a given domain.
 keywords:
   - cloudflare
   - cache
 properties:
-  cloudflare_api:
+  api:
     type: string
     required: true
-  cloudflare_email:
+  email:
     type: string
     required: true
   domain:
